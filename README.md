@@ -5,7 +5,7 @@ CSS positioning: the overall page uses **Flexbox** (`.layout` and `#task-form`) 
 
 **To use the application**: open the site, fill in a task name, choose a priority, pick a creation date, and click "Add Task." The table below updates immediately with the task and its computed deadline. Click "Edit" on any row to load it back into the form for editing, or "Delete" to remove it.
 
-Live site: _[fill in your Render URL here]_
+Live site: https://a2-hungdao.onrender.com/
 
 ## Technical Achievements
 - **Tech Achievement 1 (Single-page app, 5 pts)**: The form and results table live on one page (`index.html`). Adding a task sends a `POST` to `/data`; the server computes the derived `deadline` field and responds with the full, updated dataset as JSON, which the client uses to re-render the table in place — no page reload or second page needed.
