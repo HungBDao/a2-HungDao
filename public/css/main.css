@@ -107,3 +107,47 @@ footer {
 .hidden {
   display: none;
 }
+
+.priority-badge {
+  display: inline-block;
+  padding: 0.15em 0.6em;
+  border-radius: 999px;
+  font-size: 0.85em;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.priority-high {
+  background-color: #fde2e2;
+  color: #c53030;
+}
+
+.priority-medium {
+  background-color: #fef3c7;
+  color: #b45309;
+}
+
+.priority-low {
+  background-color: #d1fae5;
+  color: #047857;
+}
+
+.row-actions {
+  display: flex;
+  gap: 0.4em;
+}
+
+.edit-btn {
+  background-color: #e2e8f0;
+  color: #1f2933;
+}
+
+.delete-btn {
+  background-color: #fde2e2;
+  color: #c53030;
+}
+
+.secondary {
+  background-color: #e2e8f0;
+  color: #1f2933;
+}
